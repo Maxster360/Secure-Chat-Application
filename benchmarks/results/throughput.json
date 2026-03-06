@@ -1,0 +1,218 @@
+[
+  {
+    "cipher": "caesar",
+    "payload_bytes": 64,
+    "iterations": 100,
+    "encrypt_time_s": 0.001436,
+    "decrypt_time_s": 0.001326,
+    "encrypt_mbps": 4.46,
+    "decrypt_mbps": 4.83
+  },
+  {
+    "cipher": "caesar",
+    "payload_bytes": 256,
+    "iterations": 100,
+    "encrypt_time_s": 0.003826,
+    "decrypt_time_s": 0.004083,
+    "encrypt_mbps": 6.69,
+    "decrypt_mbps": 6.27
+  },
+  {
+    "cipher": "caesar",
+    "payload_bytes": 1024,
+    "iterations": 100,
+    "encrypt_time_s": 0.012225,
+    "decrypt_time_s": 0.006354,
+    "encrypt_mbps": 8.38,
+    "decrypt_mbps": 16.12
+  },
+  {
+    "cipher": "caesar",
+    "payload_bytes": 4096,
+    "iterations": 100,
+    "encrypt_time_s": 0.016192,
+    "decrypt_time_s": 0.015357,
+    "encrypt_mbps": 25.3,
+    "decrypt_mbps": 26.67
+  },
+  {
+    "cipher": "caesar",
+    "payload_bytes": 16384,
+    "iterations": 100,
+    "encrypt_time_s": 0.062637,
+    "decrypt_time_s": 0.065962,
+    "encrypt_mbps": 26.16,
+    "decrypt_mbps": 24.84
+  },
+  {
+    "cipher": "caesar",
+    "payload_bytes": 65536,
+    "iterations": 100,
+    "encrypt_time_s": 0.261343,
+    "decrypt_time_s": 0.267888,
+    "encrypt_mbps": 25.08,
+    "decrypt_mbps": 24.46
+  },
+  {
+    "cipher": "columnar",
+    "payload_bytes": 64,
+    "iterations": 100,
+    "encrypt_time_s": 0.000366,
+    "decrypt_time_s": 0.000619,
+    "encrypt_mbps": 17.48,
+    "decrypt_mbps": 10.34
+  },
+  {
+    "cipher": "columnar",
+    "payload_bytes": 256,
+    "iterations": 100,
+    "encrypt_time_s": 0.00105,
+    "decrypt_time_s": 0.002246,
+    "encrypt_mbps": 24.39,
+    "decrypt_mbps": 11.4
+  },
+  {
+    "cipher": "columnar",
+    "payload_bytes": 1024,
+    "iterations": 100,
+    "encrypt_time_s": 0.004668,
+    "decrypt_time_s": 0.007226,
+    "encrypt_mbps": 21.94,
+    "decrypt_mbps": 14.17
+  },
+  {
+    "cipher": "columnar",
+    "payload_bytes": 4096,
+    "iterations": 100,
+    "encrypt_time_s": 0.020042,
+    "decrypt_time_s": 0.030702,
+    "encrypt_mbps": 20.44,
+    "decrypt_mbps": 13.34
+  },
+  {
+    "cipher": "columnar",
+    "payload_bytes": 16384,
+    "iterations": 100,
+    "encrypt_time_s": 0.08197,
+    "decrypt_time_s": 0.120882,
+    "encrypt_mbps": 19.99,
+    "decrypt_mbps": 13.55
+  },
+  {
+    "cipher": "columnar",
+    "payload_bytes": 65536,
+    "iterations": 100,
+    "encrypt_time_s": 0.332652,
+    "decrypt_time_s": 0.545846,
+    "encrypt_mbps": 19.7,
+    "decrypt_mbps": 12.01
+  },
+  {
+    "cipher": "hill",
+    "payload_bytes": 64,
+    "iterations": 100,
+    "encrypt_time_s": 0.002684,
+    "decrypt_time_s": 0.002996,
+    "encrypt_mbps": 2.38,
+    "decrypt_mbps": 2.14
+  },
+  {
+    "cipher": "hill",
+    "payload_bytes": 256,
+    "iterations": 100,
+    "encrypt_time_s": 0.009694,
+    "decrypt_time_s": 0.010273,
+    "encrypt_mbps": 2.64,
+    "decrypt_mbps": 2.49
+  },
+  {
+    "cipher": "hill",
+    "payload_bytes": 1024,
+    "iterations": 100,
+    "encrypt_time_s": 0.039571,
+    "decrypt_time_s": 0.040611,
+    "encrypt_mbps": 2.59,
+    "decrypt_mbps": 2.52
+  },
+  {
+    "cipher": "hill",
+    "payload_bytes": 4096,
+    "iterations": 100,
+    "encrypt_time_s": 0.171858,
+    "decrypt_time_s": 0.158362,
+    "encrypt_mbps": 2.38,
+    "decrypt_mbps": 2.59
+  },
+  {
+    "cipher": "hill",
+    "payload_bytes": 16384,
+    "iterations": 100,
+    "encrypt_time_s": 0.633699,
+    "decrypt_time_s": 0.649304,
+    "encrypt_mbps": 2.59,
+    "decrypt_mbps": 2.52
+  },
+  {
+    "cipher": "hill",
+    "payload_bytes": 65536,
+    "iterations": 100,
+    "encrypt_time_s": 5.977032,
+    "decrypt_time_s": 8.664988,
+    "encrypt_mbps": 1.1,
+    "decrypt_mbps": 0.76
+  },
+  {
+    "cipher": "vigenere",
+    "payload_bytes": 64,
+    "iterations": 100,
+    "encrypt_time_s": 0.001934,
+    "decrypt_time_s": 0.001856,
+    "encrypt_mbps": 3.31,
+    "decrypt_mbps": 3.45
+  },
+  {
+    "cipher": "vigenere",
+    "payload_bytes": 256,
+    "iterations": 100,
+    "encrypt_time_s": 0.009094,
+    "decrypt_time_s": 0.008575,
+    "encrypt_mbps": 2.82,
+    "decrypt_mbps": 2.99
+  },
+  {
+    "cipher": "vigenere",
+    "payload_bytes": 1024,
+    "iterations": 100,
+    "encrypt_time_s": 0.03704,
+    "decrypt_time_s": 0.034238,
+    "encrypt_mbps": 2.76,
+    "decrypt_mbps": 2.99
+  },
+  {
+    "cipher": "vigenere",
+    "payload_bytes": 4096,
+    "iterations": 100,
+    "encrypt_time_s": 0.070666,
+    "decrypt_time_s": 0.066521,
+    "encrypt_mbps": 5.8,
+    "decrypt_mbps": 6.16
+  },
+  {
+    "cipher": "vigenere",
+    "payload_bytes": 16384,
+    "iterations": 100,
+    "encrypt_time_s": 0.416289,
+    "decrypt_time_s": 0.459156,
+    "encrypt_mbps": 3.94,
+    "decrypt_mbps": 3.57
+  },
+  {
+    "cipher": "vigenere",
+    "payload_bytes": 65536,
+    "iterations": 100,
+    "encrypt_time_s": 1.606229,
+    "decrypt_time_s": 2.338399,
+    "encrypt_mbps": 4.08,
+    "decrypt_mbps": 2.8
+  }
+]

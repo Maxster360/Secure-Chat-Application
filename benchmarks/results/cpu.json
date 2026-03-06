@@ -1,0 +1,38 @@
+[
+  {
+    "cipher": "caesar",
+    "duration_s": 3.0,
+    "iterations": 5882,
+    "ops_per_sec": 1960.6,
+    "cpu_percent": 81.1,
+    "memory_mb": 27.2,
+    "payload_bytes": 4096
+  },
+  {
+    "cipher": "columnar",
+    "duration_s": 3.002,
+    "iterations": 2596,
+    "ops_per_sec": 864.7,
+    "cpu_percent": 43.8,
+    "memory_mb": 27.4,
+    "payload_bytes": 4096
+  },
+  {
+    "cipher": "hill",
+    "duration_s": 3.001,
+    "iterations": 157,
+    "ops_per_sec": 52.3,
+    "cpu_percent": 6.0,
+    "memory_mb": 27.4,
+    "payload_bytes": 4096
+  },
+  {
+    "cipher": "vigenere",
+    "duration_s": 3.004,
+    "iterations": 681,
+    "ops_per_sec": 226.7,
+    "cpu_percent": 14.6,
+    "memory_mb": 27.4,
+    "payload_bytes": 4096
+  }
+]
